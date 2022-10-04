@@ -16,7 +16,7 @@ public class ElectiveModule extends Module {
 
     @Override
     public String toString() {
-        return String.format("+ Module:\n- Name: %s \n+ Code: %s\n+ Semester: %s\n+ Department: %s\n",
-                this.getName(), this.getCode(), this.getSemester(), departmentName);
+        return String.format("+ Module:\n- Name: %s \n+ Code: %s\n+ Semester: %s\n+ Department: %s\n +credit: %s\n",
+                this.getName(), this.getCode(), this.getSemester(), departmentName, this.getCredit());
     }
 }
